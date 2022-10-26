@@ -21,6 +21,13 @@ body{
     font-size: 40px;
     
    }
+   #clip
+   {
+       background-color: rgb(203, 231, 43);
+       border: 2px solid black;
+       font-size: 20px;
+   }
+  
 
   #name{
     text-align: center;
@@ -48,4 +55,10 @@ color: white;
     justify-content: space-around;
     justify-items: center;
 
+  }
+  #clip
+  {
+    background-color: rgb(203, 231, 43);
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
