@@ -70,3 +70,18 @@ display:flex;
 justify-content: center;
 padding-top: 20px;
 }
+.cards{
+  display: flex;
+  justify-items: center;
+  justify-content:space-around;
+
+}
+.selection2{
+  padding: 10px,10px,10px,10px;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+.selection2{
+  padding: 10px,10px,10px,10px;
+}
