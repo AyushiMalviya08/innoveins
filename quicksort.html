@@ -70,23 +70,26 @@
             </div>
     </div>
     </nav>
-    <div class="font-monospace" id="name"><b>Selection Sorting</b></div>
+    <div class="font-monospace" id="name"><b>Quick Sorting</b></div>
     <div id="carding">
         <div class="card" style="width: 40rem;">
-            <img src="./images/Screenshot (12).png" class="card-img-top" alt="...">
+            <img src="./images/quick-sort_1.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><b>Selection Sort</b></h5>
+                <h5 class="card-title"><b>Quick Sort</b></h5>
                 <p class="card-text"></p>
                 <b>Time Complexity:</b>
-                the number of comparisons will be the same for every case and hence,
-                for average case as well, the number of comparisons will be constant. Therefore, the time complexity
-                will be O(N^2)
+                The worst case time complexity of a typical implementation of QuickSort is O(n2).
+                 The worst case occurs when the picked pivot is always an extreme (smallest or largest) element. 
                 <br><b>Pseudo code:</b>
-                Find the smallest card. Swap it with the first card.
-                Find the second-smallest card. Swap it with the second card.
-                Find the third-smallest card. Swap it with the third card.
-                Repeat finding the next-smallest card, and swapping it into the correct position until the array is
-                sorted.
+                
+                 Choose the highest index value has pivot
+                 Take two variables to point left and right of the list excluding pivot
+                 left points to the low index
+                 right points to the high
+                 while value at left is less than pivot move right
+                 while value at right is greater than pivot move left
+                 if both step 5 and step 6 does not match swap left and right
+                 if left ≥ right, the point where they met is new pivot
             </div>
         </div>
         <div id="button">

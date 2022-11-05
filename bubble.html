@@ -70,23 +70,27 @@
             </div>
     </div>
     </nav>
-    <div class="font-monospace" id="name"><b>Selection Sorting</b></div>
+    <div class="font-monospace" id="name"><b>Bubble Sorting</b></div>
     <div id="carding">
         <div class="card" style="width: 40rem;">
-            <img src="./images/Screenshot (12).png" class="card-img-top" alt="...">
+            <img src="./images/Bubble-sort-0.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><b>Selection Sort</b></h5>
+                <h5 class="card-title"><b>Bubble Sort</b></h5>
                 <p class="card-text"></p>
                 <b>Time Complexity:</b>
-                the number of comparisons will be the same for every case and hence,
-                for average case as well, the number of comparisons will be constant. Therefore, the time complexity
-                will be O(N^2)
+                This algorithm has a worst-case time complexity of O(n2)
                 <br><b>Pseudo code:</b>
-                Find the smallest card. Swap it with the first card.
-                Find the second-smallest card. Swap it with the second card.
-                Find the third-smallest card. Swap it with the third card.
-                Repeat finding the next-smallest card, and swapping it into the correct position until the array is
-                sorted.
+                1. First Iteration (Compare and Swap)
+
+                Starting from the first index, compare the first and the second elements.
+                If the first element is greater than the second element, they are swapped.
+                Now, compare the second and the third elements. Swap them if they are not in order.
+                The above process goes on until the last element.
+                2. Remaining Iteration
+
+The same process goes on for the remaining iterations.
+
+After each iteration, the largest element among the unsorted elements is placed at the end.
             </div>
         </div>
         <div id="button">

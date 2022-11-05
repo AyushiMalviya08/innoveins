@@ -70,23 +70,22 @@
             </div>
     </div>
     </nav>
-    <div class="font-monospace" id="name"><b>Selection Sorting</b></div>
+    <div class="font-monospace" id="name"><b>Merge Sorting</b></div>
     <div id="carding">
         <div class="card" style="width: 40rem;">
-            <img src="./images/Screenshot (12).png" class="card-img-top" alt="...">
+            <img src="./images/merge-sort-example_0.png" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title"><b>Selection Sort</b></h5>
+                <h5 class="card-title"><b>Merge Sort</b></h5>
                 <p class="card-text"></p>
                 <b>Time Complexity:</b>
-                the number of comparisons will be the same for every case and hence,
-                for average case as well, the number of comparisons will be constant. Therefore, the time complexity
-                will be O(N^2)
+                In the worst case, in every iteration, we are dividing the problem into further 2 subproblems. Hence this will perform log n operations and this has to be done for n iteration resulting in n log n operations total. 
                 <br><b>Pseudo code:</b>
-                Find the smallest card. Swap it with the first card.
-                Find the second-smallest card. Swap it with the second card.
-                Find the third-smallest card. Swap it with the third card.
-                Repeat finding the next-smallest card, and swapping it into the correct position until the array is
-                sorted.
+                Declare left and right var which will mark the extreme indices of the array
+Left will be assigned to 0 and right will be assigned to n-1
+Find mid = (left+right)/2
+Call mergeSort on (left,mid) and (mid+1,rear)
+Above will continue till left
+Then we will call merge on the 2 subproblems
             </div>
         </div>
         <div id="button">
