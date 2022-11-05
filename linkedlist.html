@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stack
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: rgb(25, 88, 111);
+    }
+
+    #header {
+        display: flex;
+        border: 2px solid black;
+        background-color: rgb(203, 231, 43);
+        height: 90px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 40px;
+
+    }
+
+    #name {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 50px;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    .ds {
+        display:flex;
+        padding-top: 5px;
+        justify-content: space-around;
+        padding-left:200px;
+        width:750px;
+        height:100%;
+    }
+    .ds2{
+        display:flex;
+        padding-top: 5px;
+        justify-content: space-around;
+        padding-right:200px;
+        padding-left:10px;
+        width:700px;
+        height:100%;
+    }
+    .p{
+        display:flex;
+        padding-top: 5px;
+        justify-content: space-around;
+        
+         
+    }
+
+    .array {
+        
+        padding-right:200px;
+        padding-top: 20px;
+        padding-left:5px;
+        height:100%;
+        width:950px;
+        
+    }
+    .a{
+        display:flex;
+        padding-right:100px;
+        padding-top: 20px;
+        width:1000px;
+        height:100%;
+        
+        
+    }
+    .footer{
+        display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+  width: 1500px;
+  height: 50px;
+
+    }
+    .button{
+display:flex;
+justify-content: left;
+padding-left:500px;
+padding-top: 10px;
+}
+.button2{
+    display:flex;
+justify-content: left;
+padding-left:100px;
+padding-top: 10px;
+
+}
+</style>
+
+<body>
+    <div id="header">
+
+        <div class="font-monospace" id="algo">Linked List</div>
+    </div>
+    <div class="p">
+    <div class="ds">
+        <div class="array">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+
+                <img src="linkedlist.png" style="float:left" alt="..." height="200px" width="500px">
+
+                <p class="card-text font-monospace"> <br>Linked List is a data structure consisting of a group of vertices (nodes) which together represent a sequence. 
+                    Under the simplest form, each vertex is composed of a data and a reference (link) to the next vertex in the sequence. 
+                    Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations,
+                     hence they need to be stored with additional tags giving a reference to the next element. 
+                    </br></p>
+
+            </div>
+            </div></div>
+    
+            <div class="a">
+                <div class="ds2">
+              <div class="card shadow p-3 mb-5 bg-body rounded" >
+                  <h6 class="card-title fw-bold">Algorithm</h6>
+                  <p class="card-text font-monospace"> <br><h8>Insertion</h8>
+                    <p>//insert link at the first location</p>
+                       <p> void insertFirst(int key, int data){</p>
+                           <p>//create a link</p>
+                         <p>  struct node *link = (struct node*) malloc(sizeof(struct node));</p>
+                          <p> link->key = key;</p>
+                           <p>link->data = data;</p>
+                            
+                           <p>//point it to old first node</p>
+                           <p>link->next = head;</p>
+                            
+                          <p> //point first to new first node</p>
+                           <p>head = link;</p>
+                       <p> }</p>
+<h8>Deletion</h8>
+<p>//delete first item</p>
+
+<p>struct node* deleteFirst(){
+</p>
+
+<p>//save reference to first link</p>
+
+<p>struct node *tempLink = head;
+</p>
+
+<p>//mark next to first link as first </p>
+<p> head = head->next;</p>
+	
+   <p> //return the deleted link</p>
+    <p>return tempLink;</p>
+ <p>}</p>
+
+                    <br><br></p>
+                </div>
+              </div>
+            
+            
+        </div></div>
+        <div class="footer">
+        <div class="button">
+            <a class="btn btn-success" href="linkedlist.html" my-4><h2>Visualise</h2></a>  
+          </div>
+          <div class="button2">
+            <a class="btn btn-success" href="mainpage.html" my-4><h2>Back</h2></a>  
+          </div>
+</body>
+
+</html>
