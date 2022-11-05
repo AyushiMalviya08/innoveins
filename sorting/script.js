@@ -5,7 +5,7 @@ let barValues = [];
 let barSlider = document.getElementById('barSlider');
 let n = barSlider.value;
 let speedSlider = document.getElementById('speedSlider');
-let delay = 375 - speedSlider.value;
+let delay =speedSlider.value;
 
 let container = document.getElementById('container');
 let width = container.offsetWidth;
