@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 35px;
+    text-align: center;
+    }
+  #container {
+    border: 1px solid grey;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  #container div {
+    background-color: orange;
+    border: 1px solid grey;
+    flex: 1;
+  }
+  
