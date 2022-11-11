@@ -5,12 +5,12 @@
 
 body {
   width: 100%;
-  background-color: #2e3644;
+  background-color:rgb(9, 18, 21);
 }
 
 #header {
   display: flex;
-  background-color: rgb(203, 231, 43);
+  background-color: rgb(231, 43, 46);
   height: 70px;
   width: 100%;
   justify-content: space-between;

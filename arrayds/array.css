@@ -1,5 +1,9 @@
 body {
     text-align: center;
+      padding: 0;
+      margin:0;
+      background-color: rgb(5, 35, 46);
+     
   }
   
   .header {
@@ -16,8 +20,22 @@ body {
   }
   
   #container div {
-    background-color: orange;
+    background-color: rgb(200, 28, 28);
     border: 1px solid grey;
     flex: 1;
   }
-  
+  #name{
+    text-align: center;
+    padding-top: 30px;
+font-size: 50px;
+font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: rgb(0, 0, 0);
+   }
+   #clip {
+    padding-top: 0px;
+    background-color:rgb(255, 218, 8);
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
