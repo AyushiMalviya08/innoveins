@@ -73,14 +73,21 @@ padding-top: 20px;
 #what
 {
   height:80px;
-  background-color: rgb(231, 109, 43);
+  background-color: rgba(43, 231, 90, 0.579);
     border: 2px solid black;
     color: beige;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
-#normal
+/* #normal
 {
   padding-top: 60px;
   padding-left:600px
 
+} */
+#oye 
+{
+  display:flex;
+  justify-items:center;
+  padding-top: 70px;
+  justify-content: space-around;
 }
