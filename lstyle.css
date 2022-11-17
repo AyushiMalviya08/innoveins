@@ -2,15 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: rgb(5, 35, 46);
+    color:rgb(255, 218, 8);
     }
     
     .header {
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     }
     
     #array {
-    background-color: white;
+    background-color:  rgb(155, 167, 206);
     height: 305px;
     width: 598px;
     margin: auto;
@@ -28,9 +30,15 @@
     
     .block_id {
     position: absolute;
-    color: black;
+    color: rgb(255, 218, 8);
     margin-top: -20px;
     width: 100%;
     text-align: center;
     }
-    
+    #btn{
+        border: 1px solid whitesmoke;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
